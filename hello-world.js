@@ -69,6 +69,7 @@ figlet('Hello, World!', (err, data) => {
     console.log(greeting);
     console.log(cowMessage);
     console.log(chalk.yellow('Current Time:'), time);
+		console.log('Happy Monday!');
 
     // Using lodash to capitalize a string
     const capitalized = _.capitalize(name);
